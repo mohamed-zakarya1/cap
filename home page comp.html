@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/fe2651f8f8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/css.css">
+    <title>Home page</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <div style="display: flex;">
+                <li class="icon-left"><a href="#"><i class="fa-solid fa-ellipsis-vertical fa-xl" style="margin-right: 1px;"></i><i class="fas fa-bars fa-xl"></i></a></li>
+                <li class="icon-left"><a href="#"><i class="fa-solid fa-house-chimney fa-xl"></i></a></li>
+            </div>
+         <div style="display: flex;">
+            <li class="icon-left"><a href="#"><i class="fa-brands fa-square-facebook fa-xl"></i></a></li>
+            <li class="icon-left"><a href="#"><i class="fab fa-linkedin fa-xl"></i></a></li>
+            <li class="button-right"><a href="#" class="button-help"><i class="fa-solid fa-question" style="color: black;"></i> Help</a></li>
+            <li class="button-right"><a href="#" class="button-logout"><i class="fa-solid fa-right-from-bracket"  style="color: black;"></i> Logout</a></li>
+         </div>
+          
+        </ul>
+      </nav>
+    <div class="top">
+        <div class = "top-item">
+            <p>Welcome back, Client</p>
+            <span>Manage your account, contact us if you need assistance</span>
+        </div class = "top-item">
+        <div>
+            <img src="CSS/image.png" alt="profile">
+        </div>
+    </div>
+    <div class="comp">
+        <div class="bombablacgat">
+            <img src="CSS/logo1.png" alt="logo1">
+        </div>
+        <div class="bombablacgat">
+            <img src="CSS/logo2.png" alt="logo2">
+        </div>
+        <div class="bombablacgat">
+            <img src="CSS/logo3.png" alt="logo3">
+        </div>
+        <div class="bombablacgat">
+            <img src="CSS/logo4.png" alt="logo4">
+        </div>
+        <div class="bombablacgat">
+            <img src="CSS/logo5.png" alt="logo5">
+        </div>
+    </div>
+    <p id="p">Get started by Updating Your Account Details</p>
+    <div class="sections">
+       
+        <div class="sect">
+            <div class="photo">
+                <img src="CSS/profile.png" alt="img">
+            </div>
+            <div class="content">
+                <p>My Account</p>
+                <button onclick="My_Account()">Let’s Start</button>  
+            </div>
+        </div>
+        <div class="sect">
+            <div class="photo">
+                <img src="CSS/writing.png" alt="img">
+            </div>
+            <div class="content">
+                <p>Add new job</p>
+                <button>Let’s Start</button>  
+            </div>
+        </div>
+        <div class="sect">
+            <div class="photo">
+                <img src="CSS/list.png" alt="img">
+            </div>
+            <div class="content">
+                <p>Jobless list</p>
+                <button>Let’s Start</button>  
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
+<script>
+    
+    function My_Account()
+    {
+        window.location.href = "index2.html"
+    }
+</script>

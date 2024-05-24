@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+      background-color: #0194f6;
+      
+    }
+    
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+    }
+    
+    li {
+      margin-right: 10px;
+    }
+    
+    a {
+      text-decoration: none;
+      color: #333;
+      padding: 5px;
+    }
+    
+    .button-help {
+      background-color: #ffffff;
+      color: #0194f6;
+      padding: 5px 10px;
+      border-radius: 3px;
+    }
+    
+    .button-logout {
+      background-color: #ffffff;
+      color: #000000;
+      padding: 5px 10px;
+      border-radius: 3px;
+    }
+  
+    .lefto{
+      position: absolute;
+      left: 0;
+    }
+    
+    /* FontAwesome icons */
+    i {
+      font-size: 20px;
+      color: #ffffff;
+    }
+    
+    .fa-home:before {
+      content: '\f015';
+    }
+    
+    .fa-bars:before {
+      content: '\f0c9';
+    }
+    
+    .fa-facebook:before {
+      content: '\f09a';
+    }
+    
+    .fa-linkedin:before {
+      content: '\f08c';
+    }
+#p1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin-left: 115px;
+    color: #0194f6;
+    margin-top: -233px;
+    position: absolute;
+}
+
+#p2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    margin-top: -200px;
+   margin-left: 116px;
+   position: absolute;
+}
+.pic{
+    margin-top: 0px;
+    
+    border-radius: 2px;
+    width: 100%;
+    height: 287px;
+}
+img{
+    width: 100vw;
+    
+    
+    height: 290px;
+    position: absolute;
+}
+.main{
+  background-color: white;
+}
+
+.title{
+  background-color: #e6e1e1;
+  box-shadow: 5px 5px 10px gray;
+  margin-left: 4%;
+  height: 40px;
+  margin-top: 10px;
+  width: 90vw;
+  padding: 10px 20px 0px 20px;
+  
+}
+.title_content
+{
+  display: flex;
+  justify-content: space-between;
+  width: 70vw;
+}
+.title span
+{
+  font-size: 17px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: -9px;
+}
+.users{
+  padding: 0vw 7vw;
+display: flex;
+justify-content: space-between;
+}
+.datas
+{
+font-size: 20px;
+font-weight:bold;
+}
+.data
+{
+  margin-top: 3vw;
+}
+
+#pre3{
+  margin-top: -225px;
+  margin-left: 915px;
+}
+.buttons
+{
+  
+}
+
+
+button{
+  margin-top: 3vw;
+  color: #ffffff;
+  padding: 2px;
+  background-color: #0194f6;
+  border: #0194f6 2px solid;
+  border-radius: 2px;
+}
+
+button:active
+{
+  font-size: 12px;
+  margin-left: 2px;
+}

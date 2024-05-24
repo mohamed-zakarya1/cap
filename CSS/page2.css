@@ -1,0 +1,193 @@
+
+head,body{
+    margin: 0%;
+    height: 100%;
+    font-family: "lato", sans-serif;
+}
+p{
+    font-size: 14px;
+}
+
+nav {
+    background-color: #0194f6;
+    padding: 8px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  li {
+    margin-right: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+  }
+  
+  .button-help {
+    background-color: #ffffff;
+    color: #0194f6;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  
+  .button-logout {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+
+  .lefto{
+    position: absolute;
+    left: 0;
+  }
+  
+  /* FontAwesome icons */
+  i {
+    font-size: 20px;
+    color: #ffffff;
+  }
+  
+  .fa-home:before {
+    content: '\f015';
+  }
+  
+  .fa-bars:before {
+    content: '\f0c9';
+  }
+  
+  .fa-facebook:before {
+    content: '\f09a';
+  }
+  
+  .fa-linkedin:before {
+    content: '\f08c';
+  }
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 115px;
+    margin-top: -8px;
+    margin-left: -140px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    margin-left: -225px;
+}
+#dear{
+  float: left; 
+  font-weight: bold;
+   margin-top: 3px;
+}
+#pre1{
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-top: 5px;
+}
+.name_date{
+    width: 600px;
+    font-weight: bold;
+}
+.client_name{
+    float: left;
+    font-weight: bold;
+    margin-top: 3px;
+}
+.joining_date{
+    float: right;
+    font-weight: bold;
+    margin-top: 1px;
+}
+.headline{
+    background-color: #0194f6;
+    color:white;
+    text-align: left;
+    font-size: 13px;
+    font-weight:700;
+    padding: 8px;
+    padding-left: 7px;
+    width: 780px;
+    margin-bottom: 6px;
+    margin-top: -12px;
+}
+.Details{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+.inputs_{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    div{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+}
+#candidate_input{
+    width: 122px;
+    height: 10px;
+    background-color:rgb(173, 171, 171);
+    border-color: #0194f6;
+    
+    position: absolute;
+}
+.n{
+  margin-top: 75px;
+    margin-left:115px;
+}
+.d{
+  margin-top: -85px;
+    margin-left:120px;
+}
+
+#name{
+  margin-top: -1px;
+  margin-left: -60px;
+}
+#name{
+  margin-left: 20px;
+}
+.identity{
+  background-color:  #0194f6;
+  margin-top: 342px;
+  width: 788px;
+  text-align: left;
+  padding: 4px;
+  height:24px;
+  position: absolute;
+
+}
+#d2{
+  color:white;
+  font-weight: bold;  
+  margin-top: 6px;
+}
+.clear{
+  background-color:  #0194f6;
+  margin-top: 652px;
+  width: 788px;
+  text-align: left;
+  padding: 4px;
+  height:24px;
+  position: absolute;
+}
+#d3{
+  color:white;
+  font-weight: bold;  
+  margin-top: 6px;
+}

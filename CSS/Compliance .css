@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+      background-color: #0a19e2;
+      padding: 10px;
+    }
+    
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+    }
+    
+    li {
+      margin-right: 10px;
+    }
+    
+    a {
+      text-decoration: none;
+      color: #333;
+      padding: 5px;
+    }
+    
+    .button-help {
+      background-color: #ffffff;
+      color: #00ced1;
+      padding: 5px 10px;
+      border-radius: 3px;
+    }
+    
+    .button-logout {
+      background-color: #ffffff;
+      color: #000000;
+      padding: 5px 10px;
+      border-radius: 3px;
+    }
+  
+    .lefto{
+      position: absolute;
+      left: 0;
+    }
+    
+    /* FontAwesome icons */
+    i {
+      font-size: 20px;
+      color: #ffffff;
+    }
+    
+    .fa-home:before {
+      content: '\f015';
+    }
+    
+    .fa-bars:before {
+      content: '\f0c9';
+    }
+    
+    .fa-facebook:before {
+      content: '\f09a';
+    }
+    
+    .fa-linkedin:before {
+      content: '\f08c';
+    }
+#p1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin-left: 115px;
+    color: #0a19e2;
+    margin-top: -233px;
+    position: absolute;
+}
+
+#p2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    margin-top: -200px;
+   margin-left: 116px;
+   position: absolute;
+}
+.pic{
+    margin-top: 0px;
+    border: #0a19e2 solid 5px;
+    border-radius: 2px;
+    width: 100%;
+    height: 287px;
+}
+img{
+    width: 100%;
+    padding: 8px;
+    margin-left :-9px;
+    margin-top: -9px;
+    height: 290px;
+    position: absolute;
+}
+.main{
+  background-color: white;
+}
+#title{
+  background-color: #e6e1e1;
+  box-shadow: 5px 5px 10px gray;
+  position: absolute;
+  margin-left: 70px;
+  height: 40px;
+  margin-top: 7px;
+  width: 1200px;
+}
+#pre1{
+  font-size: 17px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: -9px;
+}
+
+#pre2{
+margin-top: 75px;
+margin-left: 63px;
+font-size: 20px;
+font-weight:bold ;
+}
+
+#pre3{
+  margin-top: -225px;
+  margin-left: 915px;
+}
+button{
+  color: #ffffff;
+  padding: 2px;
+  background-color: #0a19e2;
+  border: #0a19e2 2px solid;
+  border-radius: 2px;
+}

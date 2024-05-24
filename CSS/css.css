@@ -1,0 +1,151 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    min-width: 98vw;
+    font-family: 'Raleway';
+   
+}
+.top
+{
+    
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    height: 448px;
+    padding: 0 10%; 
+    background-image: url(background.jpg);
+}
+.top p
+{
+    color: #0f32b4;
+    
+    font-weight: bolder;
+    font-size: 31.5px;
+}
+.sect button
+{
+    background-color: #0194F6;
+    border: none;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    width: 125px;
+    height: fit-content;
+}
+.content
+{
+   
+    margin-top: -85px;
+    background-color: #F6F6F6;
+    box-shadow: 0px 3px 5px #aaaaaa;
+    border-radius: 5px;
+    
+    width: 200px;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+}
+.sect p
+{
+    font-size: 28px;
+    font-weight: bold;
+}
+.sect
+{
+    margin: 0vw 5vw;
+    text-align: center;
+}
+.sect img
+{
+    width: 149px;
+    height: 156px;
+}
+.top span
+{
+    font-size: 18px;
+}
+.sections
+{
+   justify-content: center;
+    max-width: 100vw;
+    display: flex;
+    padding: 0 10%; 
+}
+#p
+{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 50px;
+}
+.comp
+{
+    justify-content: center;
+    display: flex;
+    margin: 5px;    
+}
+.bombablacgat
+{
+    background-color: #F6F6F6;
+    background-color: white;
+    box-shadow: 0px 3px 5px #aaaaaa;
+    border-radius: 5px;
+    text-align: center;
+    align-content: center;
+    width: 126px;
+    height: 59px;
+    margin: 5px;
+}
+nav 
+{
+    background-color: #0194f6;
+    padding: 10px;
+}
+  
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+  }
+  
+  li {
+    margin-right: 20px;
+  }
+  i
+  {
+    color: white;
+  }
+  li.icon-left {
+    order: -1; 
+  }
+  
+  li.icon-right {
+    order: 1; 
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+    
+  }
+  
+  .button-help {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  
+  .button-logout {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
